@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Gym | Elevate Your Fitness</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        :root {
+            --primary-color: #ff4500;
+            --dark-color: #111111;
+            --light-bg: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        .text-primary-color {
+            color: var(--primary-color);
+        }
+        .bg-dark-color {
+            background-color: var(--dark-color);
+        }
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            transition: 0.3s;
+        }
+        .btn-primary-custom:hover {
+            background-color: #e03d00;
+            color: white;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://unsplash.com') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        /* Feature Cards */
+        .program-card, .trainer-card, .pricing-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+        }
+        .program-card:hover, .trainer-card:hover, .pricing-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .trainer-img {
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-color sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-uppercase text-white" href="#">
+                <i class="fa-solid fa-dumbbell text-primary-color me-2"></i>Power<span class="text-primary-color">Fit</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#programs">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#trainers">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#plans">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Inquire</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="c:\Users\CCLab\Desktop\External Practical\Images\79.jpeg" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="c:\Users\CCLab\Desktop\External Practical\Images\92.jpeg" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="c:\Users\CCLab\Desktop\External Practical\Images\77.jpeg" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-extrabold text-uppercase text-white mb-3">No Pain, <br><span class="text-primary-color">No Gain.</span></h1>
+                    <p class="lead text-light mb-4">Crush your fitness goals with our state-of-the-art facility, elite trainers, and tailor-made workout routines.</p>
+                    <a href="#contact" class="btn btn-primary-custom btn-lg text-uppercase px-4 py-3 fw-bold">Get Started Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitness Programs Section -->
+    <section id="programs" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-uppercase">Our Fitness <span class="text-primary-color">Programs</span></h2>
+                <div class="mx-auto bg-dark-color" style="height: 3px; width: 60px;"></div>
+            </div>
+            <div class="row g-4">
+                <!-- Program 1 -->
+                <div class="col-md-4">
+                    <div class="card program-card text-center p-4 bg-light-bg h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-weight-hanging fa-3x text-primary-color mb-3"></i>
+                            <h4 class="card-title fw-bold text-uppercase">Weight Training</h4>
+                            <p class="card-text text-muted">Build raw strength and lean muscle mass using top-tier free weights and targeted machines.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program 2 -->
+                <div class="col-md-4">
+                    <div class="card program-card text-center p-4 bg-light-bg h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-heart-pulse fa-3x text-primary-color mb-3"></i>
+                            <h4 class="card-title fw-bold text-uppercase">Cardio & HIIT</h4>
+                            <p class="card-text text-muted">Burn fat quickly and boost your cardiovascular endurance with high-intensity circuit training.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program 3 -->
+                <div class="col-md-4">
+                    <div class="card program-card text-center p-4 bg-light-bg h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-child-yoga fa-3x text-primary-color mb-3"></i>
+                            <h4 class="card-title fw-bold text-uppercase">Yoga & Flexibility</h4>
+                            <p class="card-text text-muted">Improve posture, enhance dynamic flexibility, and clear your mind with specialized recovery sessions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Trainers Section -->
+    <section id="trainers" class="py-5 bg-light-bg">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-uppercase">Expert <span class="text-primary-color">Trainers</span></h2>
+                <div class="mx-auto bg-dark-color" style="height: 3px; width: 60px;"></div>
+            </div>
+            <div class="row g-4">
+                <!-- Trainer 1 -->
+                <div class="col-md-4">
+                    <div class="card trainer-card h-100 overflow-hidden">
+                        <img src="https://unsplash.com" class="card-img-top trainer-img" alt="Trainer 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-uppercase">Alex Rivers</h5>
+                            <p class="text-primary-color fw-semibold">Strength Coach</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Trainer 2 -->
+                <div class="col-md-4">
+                    <div class="card trainer-card h-100 overflow-hidden">
+                        <img src="https://unsplash.com" class="card-img-top trainer-img" alt="Trainer 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-uppercase">Sarah Jenkins</h5>
+                            <p class="text-primary-color fw-semibold">HIIT Specialist</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Trainer 3 -->
+                <div class="col-md-4">
+                    <div class="card trainer-card h-100 overflow-hidden">
+                        <img src="https://unsplash.com" class="card-img-top trainer-img" alt="Trainer 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-uppercase">Marcus Vance</h5>
+                            <p class="text-primary-color fw-semibold">Nutrition & Bodybuilding</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-secondary"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
